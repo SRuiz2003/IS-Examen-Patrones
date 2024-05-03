@@ -1,0 +1,16 @@
+<diagram program="umletino" version="15.1"><zoom_level>7</zoom_level><element><id>UMLClass</id><coordinates><x>36</x><y>364</y><w>147</w><h>98</h></coordinates><panel_attributes>Image
+--
+- imageFilter
+-
++ GrayScaleFilter()
++ HighContrastFilter()
++ SepiaFilter()
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>176</x><y>406</y><w>70</w><h>21</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;</panel_attributes><additional_attributes>10;10;80;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>232</x><y>364</y><w>147</w><h>98</h></coordinates><panel_attributes>&lt;&lt;interface&gt;&gt;
+ImageFilter
+--
+- imageFilter
+-
++ GrayScaleFilter()
++ HighContrastFilter()
++ SepiaFilter()
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>204</x><y>511</y><w>70</w><h>21</h></coordinates><panel_attributes>GrayScaleFilter</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>281</x><y>511</y><w>77</w><h>21</h></coordinates><panel_attributes>HighContrastFilter</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>365</x><y>511</y><w>70</w><h>21</h></coordinates><panel_attributes>SepiaFilter</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>309</x><y>455</y><w>21</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element><element><id>Relation</id><coordinates><x>309</x><y>455</y><w>98</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;50;120;50;120;80</additional_attributes></element><element><id>Relation</id><coordinates><x>232</x><y>455</y><w>98</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>120;10;120;50;10;50;10;80</additional_attributes></element><element><id>Relation</id><coordinates><x>309</x><y>455</y><w>21</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element></diagram>
